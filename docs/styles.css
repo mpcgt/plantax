@@ -93,16 +93,16 @@ h1 {
 }
 
 .button {
-    font-family: "Zilla Slab", serif;
-    background-color: #000;
-    color: #fff;
-    width: 200px;
-    height: 20px;
+  font-family: "Zilla Slab", serif;
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  height: 20px;
 }
 
 .button a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 main {
