@@ -6,18 +6,6 @@ li ul {
   text-decoration: none;
 }
 
-.banniere {
-  background-color: green;
-  color: #fff;
-  position: absolute;
-  height: 7%;
-  width: 100%;
-  font-size: xx-large;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-align: center;
-}
-
 .header {
   display: flex;
   position: fixed;
@@ -32,8 +20,7 @@ li ul {
 }
 
 .navbar a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Zilla Slab", serif;
   font-size: large;
   color: #000;
   font-weight: 500;
@@ -108,4 +95,24 @@ h1 {
 main {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 54px;
+}
+
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #000;
+  color: #fff;
+  height: 170px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  position: relative;
+  top: 50px;
+  color: #fff;
+  margin: 20px;
+  font-size: large;
+  text-decoration: none;
 }
