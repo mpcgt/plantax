@@ -179,3 +179,14 @@ footer a {
   font-size: large;
   text-decoration: none;
 }
+
+/* Page panier */
+
+.panier-page {
+  margin: 80px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
