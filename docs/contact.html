@@ -42,35 +42,68 @@
     <br />
     <h1>Contactez-nous</h1>
 
-    <section id="contact">
-      <div class="contenu">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-          suscipit magni eum corporis, sapiente ex odit neque aliquid modi hic.
-        </p>
+    <div class="contact">
+      <label for="fname">Nom & prénom</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="Votre nom et prénom"
+      />
 
-        <form id="form">
-          <label for="nom"><i class="fa-solid fa-person"></i> Nom :</label>
-          <input type="text" id="name" placeholder="Votre nom" />
-          <br />
-          <label for="email"><i class="fa-solid fa-at"></i> Email :</label>
-          <input type="text" id="email" placeholder="Votre email" />
-          <br />
-          <label for="sujet"><i class="fa-solid fa-pen-to-square"></i> Sujet :</label>
-          <input type="text" id="subject" placeholder="Sujet du message" />
-          <br />
-          <label for="message"><i class="fa-solid fa-comment"></i> Message :</label>
-          <input type="text" id="message" placeholder="Votre message" />
-          <br />
-          <br />
-          <input type="submit" value="OK" class="button-contact" />
-        </form>
-        <div class="contact-info">
-          <h1>Informations de contact</h1>
-            <br />
-          
+      <label for="sujet">Sujet</label>
+      <input
+        type="text"
+        id="sujet"
+        name="sujet"
+        placeholder="L'objet de votre message"
+      />
+
+      <label for="emailAddress">Email</label>
+      <input
+        id="emailAddress"
+        type="email"
+        name="email"
+        placeholder="Votre email"
+      />
+
+      <label for="subject">Message</label>
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Votre message"
+        style="height: 200px"
+      ></textarea>
+
+      <input type="submit" value="Envoyer" />
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="reseaux">
+          <a href=""><i class="fa-brands fa-facebook fa-3x"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter fa-3x"></i></a>
+          <a href=""><i class="fa-brands fa-instagram fa-3x"></i></a>
+          <a href=""><i class="fa-brands fa-youtube fa-3x"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fa-3x"></i></a>
         </div>
+
+        <nav class="footer-nav">
+          <a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a>
+          <a href="produits.html"
+            ><i class="fa-solid fa-seedling"></i> Produits</a
+          >
+          <a href="panier.html"
+            ><i class="fa-solid fa-basket-shopping"></i> Panier</a
+          >
+          <a href="contact.html"
+            ><i class="fa-solid fa-envelope"></i> Contact</a
+          >
+          <a href="about.html"
+            ><i class="fa-solid fa-circle-info"></i> À propos</a
+          >
+        </nav>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
