@@ -25,3 +25,5 @@ Nous proposons une large gamme de plantes d'intérieur et d'extérieur, ainsi qu
 <hr />
 
 ### Vous pouvez aller dans votre boutique avec ce [lien](https://mpcgt.github.io/plantax/). 🛒🌱
+
+<h6><i>Le site Plantax (GitHub Pages), ne charge pas des images, il est fortement conseillé de télécharger le code source dans le bouton vert "Code" pour ensuite télécharger et lancer "index.html" sur votre ordinateur.</i></h6>
