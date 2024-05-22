@@ -116,16 +116,15 @@ h1 {
 }
 
 .contact {
-  /* Ajouter box-sizing */
   font-family: "Zilla Slab", serif;
   box-sizing: border-box;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   width: 100%;
-  /* redéfinition 400 + 2*20 */
   max-width: 440px;
   position: relative;
+  right: 400px;
   top: 50px;
   margin: 0 auto;
 }
@@ -153,8 +152,6 @@ label {
 
 input[type="submit"] {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #75da7e;
   color: white;
   padding: 12px 20px;
@@ -165,6 +162,33 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #ad2f;
+}
+
+.info-contact {
+  text-align: left;
+  width: 100%;
+  max-width: 440px;
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+  margin: 0 auto;
+}
+
+.info contact h1 {
+  font-family: "Zilla Slab", serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.info-contact p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info-contact i {
+  color: #75da7e;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .propos img {
