@@ -145,6 +145,7 @@ h1 {
 input[type="text"],
 textarea,
 input[type="email"] {
+  font-family: "Zilla Slab", serif;
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
